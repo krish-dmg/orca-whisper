@@ -1,0 +1,15 @@
+{
+  "name": "orca-whisper-worker",
+  "version": "1.0.0",
+  "description": "Cloudflare Worker for Orca Whisper audio transcription",
+  "private": true,
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "latest",
+    "typescript": "^5.6.3",
+    "wrangler": "^4.143.1"
+  }
+}

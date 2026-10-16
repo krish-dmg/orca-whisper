@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <!-- Orca Whisper App Icon: Microphone Capsule with Orca Fin Silhouette -->
+  <defs>
+    <clipPath id="mic-capsule-clip">
+      <rect x="232" y="140" width="560" height="744" rx="280" ry="280"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background Base Canvas -->
+  <rect width="1024" height="1024" rx="224" fill="#0A0F1D"/>
+
+  <!-- Outer Mic Capsule -->
+  <rect x="232" y="140" width="560" height="744" rx="280" ry="280" fill="#1E293B"/>
+
+  <!-- Interior Orca Fin Silhouette in Ice Cyan / White -->
+  <g clip-path="url(#mic-capsule-clip)">
+    <!-- Orca Dorsal Fin sweeping gracefully up from bottom right -->
+    <path d="M 280 884 C 360 884, 420 830, 480 730 C 560 596, 600 420, 560 270 C 650 380, 720 540, 744 884 Z" fill="#F8FAFC"/>
+    <!-- Mic sound slit indicator -->
+    <circle cx="512" cy="230" r="14" fill="#0A0F1D"/>
+  </g>
+
+  <!-- Microphone Base Stand Arc -->
+  <path d="M 180 540 C 180 760, 310 880, 512 880 C 714 880, 844 760, 844 540" fill="none" stroke="#F8FAFC" stroke-width="44" stroke-linecap="round"/>
+  <!-- Mic Stand Stem -->
+  <line x1="512" y1="880" x2="512" y2="940" stroke="#F8FAFC" stroke-width="44" stroke-linecap="round"/>
+</svg>

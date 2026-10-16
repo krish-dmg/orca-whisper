@@ -1,0 +1,9 @@
+name = "orca-whisper-worker"
+main = "src/index.ts"
+compatibility_date = "2024-04-01"
+
+[ai]
+binding = "AI"
+
+# Optional environment variables
+# Set secret token using: npx wrangler secret put AUTH_TOKEN

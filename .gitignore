@@ -1,0 +1,33 @@
+# Swift Package Manager & Build
+.build/
+.swiftpm/
+DerivedData/
+
+# macOS App Bundles & Local Binaries
+OrcaWhisper.app/
+*.app
+
+# Xcode
+*.xcodeproj/xcuserdata/
+*.xcodeproj/project.xcworkspace/xcuserdata/
+*.xcworkspace/xcuserdata/
+
+# Node & Cloudflare Worker
+worker/node_modules/
+worker/.cache/
+worker/dist/
+worker/.wrangler/
+
+# Temporary audio files & test artifacts
+*.m4a
+*.aiff
+*.wav
+*.mp3
+
+# macOS System Files
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
